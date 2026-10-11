@@ -1,0 +1,26 @@
+[project]
+name = "contrastive-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "paul1231231", email = "pokpokli557@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "kaggle>=2.2.4",
+    "matplotlib>=3.11.2",
+    "pillow>=12.3.0",
+    "pytest>=9.1.1",
+    "pyyaml>=6.0.3",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+contrastive-learning = "contrastive_learning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

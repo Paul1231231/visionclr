@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Downloaded datasets
+data/raw/
+data/processed/
+
+# Training outputs
+outputs/
+checkpoints/
+*.pt
+*.pth
+
+# Secrets
+.env
+kaggle.json
+
+# macOS
+.DS_Store
